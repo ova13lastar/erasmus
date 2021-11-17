@@ -24,7 +24,7 @@ $config['index_page'] = '';
 // Slug de l'application
 $config['app_slug'] = 'erasmus';
 // Nom de l'application
-$config['app_name'] = 'ERASMUSers';
+$config['app_name'] = 'ERASMUS';
 // Numero de version
 $config['app_num_version'] = '1.0.0';
 // Date de la version
