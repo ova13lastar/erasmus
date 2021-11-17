@@ -1,0 +1,273 @@
+html {
+    position: relative;
+    min-height: 100%;
+    -ms-overflow-style: scrollbar;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.align-middle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.panel-heading {
+    padding: 5px!important;
+}
+
+.panel-body {
+    padding: 10px!important;
+}
+
+.panel {
+    margin-bottom: 5px!important;
+}
+
+.form-group {
+    margin-bottom: 5px!important;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+code {
+    font-size: 80%;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .modal-dialog {
+        width: 50%;
+    }
+}
+
+.vresize {
+    resize: vertical; 
+}
+
+.label_normal {
+    font-weight: normal !important;
+}
+
+.label_left {
+    text-align: left !important;
+}
+
+.label_big_size {
+    font-size: 16px !important;
+}
+
+#footer_infos {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+}
+
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 2px 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+/* Datatables
+-------------------------------------------------- */
+
+.dataTables_wrapper .left-filter .dataTables_filter {
+    float: left;
+}
+
+div.dataTables_wrapper label {
+    font-weight: normal;
+}
+
+/* Header + navbar
+-------------------------------------------------- */
+
+.page-header {
+    margin-top: 0px;
+}
+
+.header-info {
+    padding-top: 6px;
+    padding-bottom: 0px;
+}
+
+.header-info > p {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+}
+
+.navbar-custom {
+    background-color: #04819E;
+    color: #ffffff;
+    border: 0;
+    border-radius: 0;
+}
+.navbar-custom .navbar-nav {
+    margin-top: 4px;
+}
+.navbar-custom .navbar-nav > .active {
+    background-color: #fff;
+}
+.navbar-custom .navbar-nav > a {    
+    margin-top: -4px;
+}
+.navbar-custom .navbar-brand {
+    padding: 0px;
+    margin-top: 2px;
+}
+.navbar-custom .navbar-brand > img {
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: auto;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:visited,
+.navbar-custom .navbar-nav > .active > a:focus {
+    color: #097182;
+    /*background-color: transparent;*/
+}
+.navbar-custom .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+    color: #097182;
+    background-color: transparent;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.nav > li > a:focus {
+    color: #097182;
+    text-decoration: none;
+    background-color: #eeeeee;
+}
+.navbar-custom .navbar-brand {
+    color: #eeeeee;
+}
+.navbar-custom .navbar-toggle {
+    background-color: #eeeeee;
+}
+.navbar-custom .icon-bar {
+    background-color: #eeeeee;
+}
+.navbar-custom .navbar-nav > li > .dropdown-menu { 
+    background-color: #04819E; 
+}
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a {
+    color: #fff;
+}
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:focus {
+    color: #097182;
+    background-color: #eeeeee;
+}
+
+/* Footer
+-------------------------------------------------- */
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-footer {
+    background-color: #d9edf7;
+}
+
+/* Chart
+-------------------------------------------------- */
+
+.chart-outer {
+    max-width: 98%;
+    margin: 0em auto;
+}
+#chart-container {    
+    height: 700px;
+    margin-top: 0em;
+    min-width: 380px;
+}
+.highcharts-data-table table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: white;
+    min-width: 100%;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+    border: 1px solid silver;
+    padding: 0.5em;
+}
+.highcharts-data-table tr:nth-child(even), .highcharts-data-table thead tr {
+    background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+    background: #eff;
+}
+.highcharts-data-table caption {
+    border-bottom: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* Animation rotation
+-------------------------------------------------- */
+
+.gly-spin {
+    -webkit-animation: spin 2s infinite linear;
+    -moz-animation: spin 2s infinite linear;
+    -o-animation: spin 2s infinite linear;
+    animation: spin 2s infinite linear;
+}
+
+@-moz-keyframes spin {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(359deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+@-o-keyframes spin {
+    0% {
+        -o-transform: rotate(0deg);
+    }
+    100% {
+        -o-transform: rotate(359deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
