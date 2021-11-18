@@ -24,11 +24,11 @@
     <table id="table_supervision624" class="table table-striped table-bordered table-condensed" cellspacing="0" width="100%">
         <thead>
             <tr>
-                <th style="width:50%">Nom</th>
-                <th style="width:20%">Statut</th>
-                <th style="width:10%;">Date de blocage</th>
-                <th style="width:10%;">Date dernière connexion</th>
-                <th style="width:10%;">Date changement MDP</th>
+                <th style="width:40%">Nom</th>
+                <th style="width:15%">Statut</th>
+                <th style="width:15%;">Date de blocage</th>
+                <th style="width:15%;">Date dernière connexion</th>
+                <th style="width:15%;">Date changement MDP</th>
             </tr>
         </thead>
         <tbody>
@@ -65,11 +65,11 @@
     <table id="table_supervision225" class="table table-striped table-bordered table-condensed" cellspacing="0" width="100%">
         <thead>
             <tr>
-                <th style="width:50%">Nom</th>
-                <th style="width:20%">Statut</th>
-                <th style="width:10%;">Date de blocage</th>
-                <th style="width:10%;">Date dernière connexion</th>
-                <th style="width:10%;">Date changement MDP</th>
+                <th style="width:40%">Nom</th>
+                <th style="width:15%">Statut</th>
+                <th style="width:15%;">Date de blocage</th>
+                <th style="width:15%;">Date dernière connexion</th>
+                <th style="width:15%;">Date changement MDP</th>
             </tr>
         </thead>
         <tbody>
