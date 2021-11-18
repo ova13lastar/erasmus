@@ -105,6 +105,9 @@ $(document).ready(function () {
     $('.help-block').hide();
     $('#message-info').hide();
     $('#message-info-modal').hide();
+    $('#usernameornum').keyup(function() {
+        this.value = this.value.toUpperCase();
+    });
     $("input").change(function () {
         js_css_error_init($(this));
     });
